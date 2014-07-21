@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyApp3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/my-app3.css">
+  </head>
+  <body>
+    <script>
+      window.MyApp3ENV = {{ENV}};
+      window.EmberENV = window.MyApp3ENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/my-app3.js"></script>
+    <script>
+      window.MyApp3 = require('my-app3/app')['default'].create(MyApp3ENV.APP);
+    </script>
+    
+  </body>
+</html>

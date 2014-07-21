@@ -16,5 +16,7 @@ var app = new EmberApp();
 // modules that you would like to import into your application
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
-app.import('vendor/multilevelpushmenu/jquery.multilevelpushmenu.js');
+app.import('vendor/multilevelpushmenu/jquery.multilevelpushmenu.min.js');
+app.import('vendor/multilevelpushmenu/jquery.multilevelpushmenu.css');
+//app.import('vendor/fontawesome/css/font-awesome.css');
 module.exports = app.toTree();

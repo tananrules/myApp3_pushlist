@@ -1,5 +1,45 @@
-<ul>
-  {{#each}}
-    <li>{{name}}</li>
-  {{/each}}
-</ul>
+    <div id="menu">
+      <nav>
+        <h2><i class="fa fa-reorder"></i>All Categories</h2>
+        <ul>
+        {{#each}}
+            <li>
+                <a href="#"><i class="fa fa-laptop"></i>{{name}}</a>
+                <h2><i class="fa fa-laptop"></i>{{name}}</h2>
+                <ul>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-phone"></i>{{root.pretty_name}}</a>
+                        <h2><i class="fa fa-phone"></i>{{root.pretty_name}}</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Super Smart Phone</a>
+                            </li>
+                            <li>
+                                <a href="#">Thin Magic Mobile</a>
+                            </li>
+                            <li>
+                                <a href="#">Performance Crusher</a>
+                            </li>
+                            <li>
+                                <a href="#">Futuristic Experience</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul> 
+            </li>
+            {{/each}} 
+            <li>
+                <a href="#">Collections</a>
+            </li>
+            <li>
+                <a href="#">Credits</a>
+            </li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <ul>
+    	

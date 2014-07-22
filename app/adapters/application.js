@@ -4,5 +4,6 @@ export default DS.RESTAdapter.extend({
 	headers: {
 		"X-Spree-Token": "ad76617dfee35d1b793d8d67187e85c7075ccea6bed232c9"
 	},
-	namespace: 'api'
+	namespace: 'api',
+  host: "http://venky.roroid.asia"
 });
